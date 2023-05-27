@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url('../images/12.jfif'); 
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    position: center; 
+    background-size:100% 100%;
+    /* display: flex;  */
+    font-family: 'Yusei Magic', sans-serif;  
+}
+.mg{
+    /* margin-top: 100px; */
+    /* display: flex; */
+}
+.reg{
+    /* padding-right: 150px; */
+}
+.sumbit1{
+    margin-left: 100px;
+}
+.my-cls{
+    width: 100%;
+    background:rgb(7, 188, 243) !important; 
+    color: #f70202;
+    overflow:hidden;
+    
+   }
+   .my-cls a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+   }
+   
+   /* Change the color of links on hover */
+   .my-cls a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+   
+   /* Add a color to the active/current link */
+   .my-cls a.active {
+     background-color: #fd08e9;
+     color: white;
+   }

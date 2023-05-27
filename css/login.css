@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(76, 201, 233);
+}
+.mini{
+    background-image: url('../images/14.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position:left bottom;
+    height: 100vh; 
+    padding-left: 500px;
+    padding-top: 200px;
+    
+}
+.services-card{
+    /* box-shadow:2px 2px 5px  rgb(39, 1, 255); */
+    border-radius: 0px;
+    height: 250px;
+    width: 270px;
+    text-align: center;
+    /* background: rgb(3, 184, 255);  */
+}
+.services-card:hover{
+    background-color: rgba(4, 239, 247, 0.8);
+}
+.joi{
+    border: 1px solid;
+    padding: 5px 63px;
+     color: #030303;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    box-shadow:1px 1px 1px 1px #04bff8;
+    border-radius: 15px;
+    box-shadow: #f02727;
+}
+.joi:hover{
+    background-color: rgba(130, 4, 247, 0.8);
+}
+
+.logo{
+    color: blue;
+    font-size: 30px;
+}
+.my-cls{
+    background:rgb(7, 188, 243) !important; 
+    color: #f70202;
+    overflow:hidden;
+    
+   }
+   .my-cls a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+   }
+   
+   /* Change the color of links on hover */
+   .my-cls a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+   
+   /* Add a color to the active/current link */
+   .my-cls a.active {
+     background-color: #fd08e9;
+     color: white;
+   }

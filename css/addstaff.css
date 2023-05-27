@@ -1,0 +1,96 @@
+body{
+    background-image: url('../images/50.jpg');
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    text-align: center;
+
+    font-size: 45px;
+    color: blue;
+}
+.fnt2{
+    font-family: pristina;
+    text-shadow: 3px 3px 3px rgb(65, 64, 64);
+}
+.icon{
+    display: flex;
+}
+nav{
+    box-shadow: 3px 3px 3px ;
+}
+.login{
+    background-color: rgba(65,65, 65,40%);
+}
+.container{
+    background-color: rgba(65,65, 65,40%);
+    box-shadow: 3px 3px 3px gray;
+}
+.fd{
+    color: white;
+}
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .sumbit1{
+    margin-left: 100px;
+}
+.my-cls{
+    width: 100%;
+    background:rgb(7, 188, 243) !important; 
+    color: #f70202;
+    overflow:hidden;
+    
+   }
+   .my-cls a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+   }
+   
+   /* Change the color of links on hover */
+   .my-cls a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+   
+   /* Add a color to the active/current link */
+   .my-cls a.active {
+     background-color: #fd08e9;
+     color: white;
+   }

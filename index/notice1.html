@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>notice</title>
+    <link rel="stylesheet" href="../css/notice1.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button class="navbar-toggler" data-target="#navbarToggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <a href="../index/viewstaff1.html" class="nav-link">
+                            
+                                VIEW PAGE</a>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../index/viewstaff1.html">view staff</a>
+                            <a href="../index/viewstu1.html">view student</a>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="./notice1.html" class="nav-link">
+                    
+                        SEND NOTICE</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <a href="./addstaff1.html" class="nav-link">
+                            
+                                ADD ROLE</a>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../index/addstaff1.html">ADD SATFF</a>
+                            <a href="./add stu1.html ">ADD STUDENT</a>
+                            
+
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="./history1.html" class="nav-link">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        NOTICE HISTORY</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./home.html" class="nav-link">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        Logout</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 offset-xl-5 mt-5 ">
+                <form action="./viewstaff1.html">
+                    <h1>
+                        NOTICE
+                    </h1>
+                    <label for="text">
+                        NAME:-
+                    </label>
+                    <input type="text" id="text" class="form-control">
+                    <label for="Email">
+                        EMAIL:-
+                    </label>
+                    <input type="email" id="Email" class="form-control">
+                    <label for="tel">
+                        PHONE NO:-
+                    </label>
+                    <input type="tel" id="tel" class="form-control">
+                    <label for="notice">
+                        NOTICE:-
+                    </label>
+                    <input type="file" id="notice" class="form-control"><br>
+                    <textarea name="message" id="notice" cols="30" rows="5" placeholder="write a message"></textarea>
+                    <input type="submit" value="SEND" class="btn btn-primary ml-5">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

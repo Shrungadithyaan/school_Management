@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>  -->
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-cls">
+        <button class="navbar-toggler" data-target="#navbarToggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarToggler">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item-active">
+                    <a href="../index/home.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index/login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index/register.html" class="nav-link">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index/gallery.html" class="nav-link">Gallery</a>
+                </li>
+
+            </ul>
+           
+        </div>
+
+        <!-- <a href="../example of project/inedex/index/index.html">  <img src="../website/images/11.png"   height="90px" width="150px"></a>  -->
+
+        <!-- <button class="btn btn-outline-success">Login</button> -->
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-3 offset-xl-5   mg">
+                <h2 class="head2">Student Register</h2>
+                <form action="../index/home.html">
+
+                    <label for="uname" >Frist Name:</label>
+                    <input type="text" id="uname" class="form-control" placeholder="Enter Frist name" required autofocus >
+                    <label for="last">Last name:</label>
+                    <input type="text" id="lasst name" class="form-control" placeholder="Enter user name" required>
+                    <label for="register">Register number:</label><br>
+                    <input type="number" id="register" class="form-control reg mt-0" placeholder="Enter user register number" required>
+                    <label for="register">Branch:</label>
+                    <input type="text" id="Branch" class="form-control" placeholder="Enter user Branch"required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class=" form-control" placeholder="Example@gmail.com"required>
+                    <label for="tel">mobile no:</label>
+                    <input type="tel" id="tel" class="form-control" placeholder="Mobile no"  pattern="[0-9]{10}"required>
+                    <label for="pword">Create Password:</label>
+                    <input type="password" id="pword" class="form-control" placeholder="Password"required><br>
+                    <input type="submit" class="btn btn-dark sumbit1" value="submit">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
